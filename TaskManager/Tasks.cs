@@ -95,19 +95,23 @@ namespace WindowsFormsApplication1
         private void Tasks_FormClosed(object sender, FormClosedEventArgs e)
         {
             GC.Collect();
-            System.IO.File.WriteAllText("SaveTasks.ini", string.Empty);
-            using (System.IO.StreamWriter file = new System.IO.StreamWriter("SaveTasks.ini", true))
+            try
             {
-                for (int i = 0; i < tasks.Count; i++)
+                System.IO.File.WriteAllText("SaveTasks.ini", string.Empty);
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter("SaveTasks.ini", true))
                 {
-                    if (!tasks[i].Visible) continue;
+                    for (int i = 0; i < tasks.Count; i++)
+                    {
+                        if (!tasks[i].Visible) continue;
 
-                    file.WriteLine(tasks[i].name);
-                    file.WriteLine(tasks[i].info);
-                    file.WriteLine(tasks[i].pgTask.Value);
-                    file.WriteLine(tasks[i].pgTask.Maximum);
+                        file.WriteLine(tasks[i].name);
+                        file.WriteLine(tasks[i].info);
+                        file.WriteLine(tasks[i].pgTask.Value);
+                        file.WriteLine(tasks[i].pgTask.Maximum);
+                    }
                 }
             }
+            catch (Exception ex) { };
         }
     }
 }
