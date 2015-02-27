@@ -1,0 +1,11 @@
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\obj\x86\Debug\ResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\obj\x86\Debug\WindowsFormsApplication1.Tasks.resources
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\obj\x86\Debug\WindowsFormsApplication1.Task.resources
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\obj\x86\Debug\GenerateResource.read.1.tlog
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\obj\x86\Debug\GenerateResource.write.1.tlog
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\obj\x86\Debug\TaskManager.exe
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\obj\x86\Debug\TaskManager.pdb
+\\psf\home\documents\visual studio 2010\Projects\TaskManager\TaskManager\obj\x86\Debug\WindowsFormsApplication1.taskDialogBox.resources
